@@ -1,3 +1,28 @@
 Emanuel Abraham Dorantes Ojeda
-Segundo intento.
-Tercer Intento.
+
+PASOS PARA MODIFICAR Y CARGAR ARCHIVOS:
+
+1. Crear tu archivo/carpeta y nombralo
+2. Con "git checkout" revisas en qué "rama" o "branch" te encuentras, siempre
+considerar que la rama "develop" es la principal sobre la que se deben
+hacer los "pull", "push" y cambios, NUNCA tocar la rama "main" o principal.
+3. Con "git checkout develop" cambias de rama a la que nombres
+4. Actualizas con "git pull" esa rama
+5. Para crear nueva rama usa "git branch NombreRama" / NombreRama es el 
+nombre que le vas a dar a tu rama. Al crear una nueva rama no significa
+que automaticamente vas a estar trabajando dentro de esa rama
+6. Para cambiarte a tu nueva rama usa de nuevo "git checkout NombreRama"
+7. Realiza los cambios en tu archivo/carpeta, guarda y cierra.
+8. Para guardar los cambios en Git usa "git add ." El punto guarda 
+todos los cambios realizados por ti en todas las ramas.
+9. Usa "git commit -m "comentario"" para comentar tu cambio; en "comentario"
+agregas lo que quieres comentar respecto a tu nuevo cambio.
+10. Usa "git push --set-upstream origin NombreRama"  para cargar los cambios
+guardados y el comentario en GitHub y así crear un "PULL REQUEST" en la rama
+develop. SIEMPRE hacer los cambios en DEVELOP.
+11. Esto es lo único que se debe hacer en Git para crear el PULL REQUEST en GitHub
+ahora corresponde ir al repositorio de GitHub a realizar el Pull Request
+y el merge correspondiente.
+12. Ya creado el merge y cerrado el pull request, regresas a Git a la rama
+develop y usas el comando "git pull" para bajar todos los cambios creados en la rama
+develop. Ahí se verá reflejado tu archivo/carpeta modificado.
