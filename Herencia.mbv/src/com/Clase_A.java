@@ -1,16 +1,16 @@
 package com;
 
-public class Clase_A {
-	
+public class ClaseA {
+
 	private String nombre;
 	private String apellido;
 	private int edad;
 	
-	public Clase_A() {
+	public ClaseA() {
 		
 	}
 
-	public Clase_A(String nombre, String apellido, int edad) {
+	public ClaseA(String nombre, String apellido, int edad) {
 		this.nombre = nombre;
 		this.apellido = apellido;
 		this.edad = edad;
@@ -39,8 +39,6 @@ public class Clase_A {
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
-	
-	
 	
 	
 	

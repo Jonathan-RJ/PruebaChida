@@ -1,15 +1,15 @@
 package com;
 
-public class Clase_C extends Clase_A{
+public class ClaseC extends ClaseA {
 	private String material;
 	
-	public Clase_C() {
+	public ClaseC() {
 		
 	}
 
-	public Clase_C(String nombre, String apellido, int edad) {
+	public ClaseC(String nombre, String apellido, int edad, String material) {
 		super(nombre, apellido, edad);
-
+		this.material = material;
 	}
 
 	public String getMaterial() {
@@ -20,10 +20,10 @@ public class Clase_C extends Clase_A{
 		this.material = material;
 	}
 
-	
-	
-	
-	
-	
-	
-}
+
+
+
+
+
+
+} //FIN DE LA CLASE
